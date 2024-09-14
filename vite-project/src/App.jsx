@@ -2,10 +2,12 @@ import Temp from "./simple.jsx";
 
 
 function App() {
+  const username = "Henish"
+
   return (
     <>
-    <Temp></Temp>
-    <p>this is second tag</p>
+    <Temp/>
+    <p>My name is {username}.</p>
     </>
   )
 }
