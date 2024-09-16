@@ -13,8 +13,9 @@ function App() {
   const addValue = () => {
     if(counter < 20) {
       // console.log("clicked", counter);
-      counter = counter + 1;    
-      setCounter(counter);
+      setCounter((preCounter) => preCounter + 1);
+      setCounter((preCounter) => preCounter + 1);
+      setCounter((preCounter) => preCounter + 1);
     }
   }
 
