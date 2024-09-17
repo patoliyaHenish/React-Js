@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <h1>Henish</h1>
+      <h1>Counter App</h1>
       <h2>Counter value: {counter}</h2>
 
       <button onClick={addValue}>Increase value</button>
